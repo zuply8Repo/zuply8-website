@@ -1,0 +1,23 @@
+{
+  "id": "post-2",
+  "translations": {
+    "en": {
+      "title": "How to Forecast Better",
+      "date": "2025-06-20",
+      "author": "Victor",
+      "content": "In this blog post, we’ll discuss practical ways to improve forecasting..."
+    },
+    "es": {
+      "title": "Cómo Mejorar la Planeación",
+      "date": "2025-06-20",
+      "author": "Víctor",
+      "content": "En este artículo, exploraremos formas prácticas para mejorar la planeación..."
+    },
+    "de": {
+      "title": "Wie man besser plant",
+      "date": "2025-06-20",
+      "author": "Victor",
+      "content": "In diesem Artikel besprechen wir, wie man die Prognose verbessern kann..."
+    }
+  }
+}

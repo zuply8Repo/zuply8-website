@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* Tailwind CSS v4+ theme config (if used) */
+@theme {
+  --font-display: "Satoshi", "sans-serif";
+  /* ... your variables ... */
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
