@@ -78,7 +78,6 @@ Wir können diese Cookie-Richtlinie von Zeit zu Zeit aktualisieren. Wir werden S
 Wenn Sie Fragen zu dieser Cookie-Richtlinie oder unserer Verwendung von Cookies haben, kontaktieren Sie uns unter:
 
 - E-Mail: privacy@zuply8.com
-- Adresse: [Ihre Firmenadresse]
 
 ## Ihre Rechte
 
