@@ -1,4 +1,3 @@
-import React from "react";
 import heroImage from "../assets/images/pexels-redhaste-690598.jpg";
 
 import { Link } from "react-router-dom";
@@ -14,7 +13,7 @@ export default function Hero() {
         <div className="bg-black/60 px-4 md:px-12 lg:px-24 py-10 rounded-md text-center max-w-2xl">
           <h1 className="text-h2 md:text-h2 lg:text-xl text-white font-delivery font-bold mb-5">
             We engineer supply chain and operations solutions that drive your
-            organization’s success
+            organization's success
           </h1>
           <Link
             to="/contact"
@@ -29,7 +28,7 @@ export default function Hero() {
         <h2 className="text-lg font-bold mb-2">
           Interested in scalable fulfillment?
         </h2>
-        <p className="mb-4">Let’s talk and tailor a solution for your needs.</p>
+        <p className="mb-4">Let's talk and tailor a solution for your needs.</p>
         <Link
           to="/contact"
           className="inline-block bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded"

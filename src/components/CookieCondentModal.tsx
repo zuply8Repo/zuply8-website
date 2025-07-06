@@ -1,11 +1,8 @@
 import { useEffect, useState } from "react";
-import { useTranslation } from "react-i18next";
 import { X, Cookie, Shield, Settings } from "lucide-react";
 
 export default function CookieConsentModal() {
-  const { t, i18n } = useTranslation();
   const [isVisible, setIsVisible] = useState(false);
-  const [showDetails, setShowDetails] = useState(false);
 
   useEffect(() => {
     const accepted = localStorage.getItem("cookieConsent");

@@ -1,5 +1,3 @@
-import React from "react";
-
 import Logo from "../assets/images/footer_log.svg";
 import { Link } from "react-router-dom";
 

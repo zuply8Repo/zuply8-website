@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 
 import Logo from "../assets/images/logo.svg";
 
-import { useTranslation } from "react-i18next";
 import { LanguageSelector } from "./LanguageSelector";
 
 // Puedes mover esto a otro archivo si quieres mantenerlo limpio
@@ -16,7 +15,6 @@ const menuItems = [
 ];
 
 export function Navbar() {
-  const { i18n } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
 
   return (

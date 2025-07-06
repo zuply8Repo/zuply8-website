@@ -1,16 +1,8 @@
 import { useState } from "react";
 import { CalendarClock } from "lucide-react";
-import ReCAPTCHA from "react-google-recaptcha";
 
 export default function ContactPage() {
-  const [fileName, setFileName] = useState("");
   const [showCalendar, setShowCalendar] = useState(false);
-
-  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    if (e.target.files && e.target.files.length > 0) {
-      setFileName(e.target.files[0].name);
-    }
-  };
 
   return (
     <section className="max-w-xl mx-auto px-4 py-24">
