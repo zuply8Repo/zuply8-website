@@ -1,0 +1,23 @@
+{
+  "id": "post-template",
+  "translations": {
+    "en": {
+      "title": "Your English Title",
+      "date": "2025-01-15",
+      "author": "Your Name",
+      "content": "/post-template.en.md"
+    },
+    "es": {
+      "title": "Tu Título en Español",
+      "date": "2025-01-15",
+      "author": "Tu Nombre",
+      "content": "/post-template.es.md"
+    },
+    "de": {
+      "title": "Dein Titel auf Deutsch",
+      "date": "2025-01-15",
+      "author": "Dein Name",
+      "content": "/post-template.de.md"
+    }
+  }
+}

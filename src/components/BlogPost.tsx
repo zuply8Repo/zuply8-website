@@ -14,7 +14,7 @@ export const BlogPost = ({ title, date, author, content }: BlogPostProps) => (
     <p className="text-sm text-gray-500">
       {date} • {author}
     </p>
-    <div className="mt-4 prose  max-w-none">
+    <div className="mt-4 prose max-w-none prose-p:mb-4 prose-p:leading-relaxed prose-headings:mb-4 prose-headings:mt-6 prose-ul:mb-4 prose-li:mb-1">
       <ReactMarkdown>{content}</ReactMarkdown>
     </div>
   </article>

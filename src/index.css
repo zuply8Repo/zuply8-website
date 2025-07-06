@@ -1,11 +1,28 @@
 @import "tailwindcss";
 
-/* Tailwind CSS v4+ theme config (if used) */
+/* Tailwind CSS v4+ theme config */
 @theme {
   --font-display: "Satoshi", "sans-serif";
-  /* ... your variables ... */
+  /* Add your custom theme variables here */
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Custom styles for blog content */
+.prose p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.prose h2,
+.prose h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.prose ul {
+  margin-bottom: 1rem;
+}
+
+.prose li {
+  margin-bottom: 0.25rem;
+}

@@ -3,7 +3,7 @@ import { X, Menu, ChevronRight } from "lucide-react"; // iconos
 
 import { Link } from "react-router-dom";
 
-import Logo from "../assets/images/logo_solorz.png";
+import Logo from "../assets/images/logo.svg";
 
 import { useTranslation } from "react-i18next";
 import { LanguageSelector } from "./LanguageSelector";

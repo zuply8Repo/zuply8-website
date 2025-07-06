@@ -1,0 +1,23 @@
+{
+  "id": "post-5",
+  "translations": {
+    "en": {
+      "title": "My New Post",
+      "date": "2025-07-06",
+      "author": "Your Name",
+      "content": "/post-5.en.md"
+    },
+    "es": {
+      "title": "My New Post",
+      "date": "2025-07-06",
+      "author": "Your Name",
+      "content": "/post-5.es.md"
+    },
+    "de": {
+      "title": "My New Post",
+      "date": "2025-07-06",
+      "author": "Your Name",
+      "content": "/post-5.de.md"
+    }
+  }
+}

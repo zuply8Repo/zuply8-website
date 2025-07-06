@@ -6,19 +6,19 @@
       "date": "2025-06-20",
       "author": "Manuel P.",
       "summary": "",
-      "content": "/post/post-1.en.md"
+      "content": "/post-1.en.md"
     },
     "es": {
       "title": "¿Por qué fundar Zuply8?",
       "date": "2025-06-20",
       "author": "Manuel P.",
-      "content": "/post/post-1.es.md"
+      "content": "/post-1.es.md"
     },
     "de": {
       "title": "Warum wurde Zuply8 gegründet?",
       "date": "2025-06-20",
       "author": "Manuel P.",
-      "content": "/post/post-1.de.md"
+      "content": "/post-1.de.md"
     }
   }
 }
