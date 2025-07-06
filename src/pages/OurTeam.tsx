@@ -1,9 +1,10 @@
-import MarketingCard2 from "./assets/Components/MarketingBanners/MarketingCard2";
-import TeamCard from "./assets/Components/TeamCard";
+import MarketingCard2 from "../components/MarkeingBanners/MarketingCard2";
+
+import TeamCard from "../components/TeamCard";
 import { useTranslation } from "react-i18next";
 import { Trans } from "react-i18next";
 
-import VictorSolorzImg from "./assets/images/Hero_background/teamMemberVS.jpeg";
+import VictorSolorzImg from "../assets/images/teamMemberVS.jpeg";
 
 export default function OurTeam() {
   const { t } = useTranslation();

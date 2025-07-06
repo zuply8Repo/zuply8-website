@@ -1,18 +1,20 @@
 import { Routes, Route } from "react-router-dom";
-import HomePage from "./HomePage";
-import ContactPage from "./ContactPage";
+import HomePage from "./pages/HomePage";
+import ContactPage from "./pages/ContactPage";
 
-import CookiesPage from "./CookiesPage";
-import Navbar from "./assets/Components/Navbar";
-import Footer from "./assets/Components/Footer";
-import OurTeam from "./OurTeam";
-import ScrollToTop from "./assets/Components/ScrollToTop";
-import BlogPostPage from "./BlogPostPage";
+import CookiesPage from "./pages/CookiePage";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import OurTeam from "./pages/OurTeam";
+import ScrollToTop from "./components/ScrollToTop";
+import BlogPostPage from "./pages/BlogPostPage";
 
-import CookieConsentModal from "./assets/Components/CookieConsentModal";
-import UnderConstruction_homepage from "./Under_construction";
-import "./i18n";
-import Blog from "./Blog";
+import CookieConsentModal from "./components/CookieCondentModal";
+
+import UnderConstruction_homepage from "./pages/UnderConstruction";
+
+import "../src/i18n";
+import Blog from "./pages/Blog";
 
 export default function App() {
   return (

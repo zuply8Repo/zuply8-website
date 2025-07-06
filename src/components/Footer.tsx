@@ -1,6 +1,6 @@
 import React from "react";
 
-import Logo from "../images/Hero_background/logo_solorz.png";
+import Logo from "../assets/images/logo_solorz.png";
 import { Link } from "react-router-dom";
 
 const menuGroups = [

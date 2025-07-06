@@ -1,7 +1,7 @@
-import Hero from "./assets/Components/Hero";
-import Card from "./assets/Components/MarketingBanners/Card";
+import Hero from "../components/Hero";
+import Card from "../components/MarkeingBanners/Card";
 
-import { SolutionBlock } from "./assets/Components/SolutionBlockProps";
+import { SolutionBlock } from "../components/SolutionBlockProps";
 
 export default function HomePage() {
   return (

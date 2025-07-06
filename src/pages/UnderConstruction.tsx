@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import underConstructionImage from "../src/assets/images/Hero_background/20250616_2143_Happy Bear Fishing_remix_01jxx46gqkfwy9mk0rzbw57eh6.png";
+import underConstructionImage from "../assets/images/20250616_2143_Happy Bear Fishing_remix_01jxx46gqkfwy9mk0rzbw57eh6.png";
 
 export default function UnderConstruction_homepage() {
   return (

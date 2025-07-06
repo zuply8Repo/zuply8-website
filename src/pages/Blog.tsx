@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { BlogCard } from "./assets/Components/BlogCard";
+import { BlogCard } from "../components/BlogCard";
 
 // This assumes blog posts are stored locally
 //const blogPostFiles = ["/src/blog/post-1.json"];

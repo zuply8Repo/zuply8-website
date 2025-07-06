@@ -1,8 +1,8 @@
 import { useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { useEffect, useState } from "react";
-import { BlogPost } from "../src/assets/Components/BlogPost";
-import { Helmet } from "react-helmet-async";
+import { BlogPost } from "../components/BlogPost";
+import { useSEO } from "../hooks/useSEO";
 
 export default function BlogPostPage() {
   const { id } = useParams();
@@ -51,21 +51,21 @@ export default function BlogPostPage() {
       });
   }, [id, i18n.language]);
 
+  // Use our custom SEO hook
+  useSEO({
+    title: post ? `${post.title} | Zuply8 Blog` : undefined,
+    description: post ? post.content.slice(0, 150) : undefined,
+    ogTitle: post ? post.title : undefined,
+    ogDescription: post ? post.content.slice(0, 150) : undefined,
+    ogType: "article",
+    ogLocale: i18n.language,
+  });
+
   if (!post) return <p>Loading post...</p>;
 
   return (
-    <>
-      <Helmet>
-        <title>{post.title} | Zuply8 Blog</title>
-        <meta name="description" content={post.content.slice(0, 150)} />
-        <meta property="og:title" content={post.title} />
-        <meta property="og:description" content={post.content.slice(0, 150)} />
-        <meta property="og:type" content="article" />
-        <meta property="og:locale" content={i18n.language} />
-      </Helmet>
-      <div className="max-w-2xl mx-auto px-4 pt-6">
-        <BlogPost {...post} />
-      </div>
-    </>
+    <div className="max-w-2xl mx-auto px-4 pt-6">
+      <BlogPost {...post} />
+    </div>
   );
 }
