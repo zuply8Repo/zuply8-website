@@ -77,7 +77,7 @@ We may update this Cookie Policy from time to time. We will notify you of any ch
 
 If you have any questions about this Cookie Policy or our use of cookies, please contact us at:
 
-- Email: privacy@zuply8.com
+- Email: customerservice@zuply8.com
 
 ## Your Rights
 

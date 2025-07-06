@@ -77,7 +77,7 @@ Podemos actualizar esta Política de Cookies de vez en cuando. Le notificaremos 
 
 Si tiene alguna pregunta sobre esta Política de Cookies o nuestro uso de cookies, contáctenos en:
 
-- Email: privacy@zuply8.com
+- Email: customerservice@zuply8.com
 
 ## Sus Derechos
 
