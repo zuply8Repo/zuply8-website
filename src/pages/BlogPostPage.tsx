@@ -25,10 +25,15 @@ export default function BlogPostPage() {
       console.error(`Post file not found for key: ${key}`);
       return;
     }
-
+    console.log("loader", loader);
     loader()
       .then(async (mod: any) => {
-        const translation = mod.default.translations?.[i18n.language];
+        // Try full language code, then base language
+        let translation = mod.default.translations?.[i18n.language];
+        if (!translation) {
+          const baseLang = i18n.language.split("-")[0];
+          translation = mod.default.translations?.[baseLang];
+        }
         if (!translation) {
           console.warn("Translation not found for language:", i18n.language);
           return;
